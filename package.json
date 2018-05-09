@@ -6,10 +6,10 @@
   "scripts": {
     "build": "npm-run-all clean --parallel build:*",
     "build:scripts": "rollup --config rollup/rollup.config.js",
-    "build:move": "cpy public/*.html dist --parents",
-    "dev": "npm-run-all clean --parallel start build:move dev:*",
+    "build:move": "cpy public/*.html server.js dist --parents",
+    "dev": "npm-run-all clean build:move --parallel start dev:*",
     "dev:build": "rollup --config rollup/rollup.config.dev.js --watch",
-    "start": "node server.js",
+    "start": "node dist/server.js",
     "clean": "rimraf dist"
   },
   "keywords": [],
