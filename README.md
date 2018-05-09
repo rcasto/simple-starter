@@ -14,5 +14,5 @@ You should be up and running now!
 ### Development
 To ease development there are separate commands that can be used to watch files for changes and update the application without the need to restart the server.
  
-You can make this happen by running the command `npm run dev`
+You can make this happen by running the command `npm run dev`  
 Hack away, and reload the page to see your changes.
