@@ -4,11 +4,15 @@
     from the dist/public directory
 */
 const express = require('express');
+const helmet = require('helmet');
+const compression = require('compression');
 const path = require('path');
 
 var app = express();
 var port = process.env.port || 3000;
 
+app.use(helmet());
+app.use(compression());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {

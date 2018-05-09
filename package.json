@@ -22,7 +22,9 @@
   "author": "Richie Casto",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.3"
+    "compression": "^1.7.2",
+    "express": "^4.16.3",
+    "helmet": "^3.12.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
