@@ -1,5 +1,7 @@
 # Simple Starter Project Template
-A project template powered by rollupjs, babel, express, and more...
+A project template powered by [rollupjs](https://rollupjs.org/guide/en), [babel](https://babeljs.io), and [express](https://expressjs.com).
+
+Framework agnostic so build with what you love!
 
 ## Getting Started
 To get the simple example project started do the following:
