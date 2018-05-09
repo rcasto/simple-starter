@@ -5,4 +5,4 @@ function onLoad() {
     test();
 }
 
-window.addEventListener('onload', onLoad, false);
+window.addEventListener('load', onLoad, false);
