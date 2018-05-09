@@ -1,7 +1,7 @@
 # Simple Starter Project Template
 A project template powered by [rollupjs](https://rollupjs.org/guide/en), [babel](https://babeljs.io), [sass](https://sass-lang.com), [express](https://expressjs.com), and more.
 
-Framework agnostic so build with what you love!
+Web framework/library agnostic so build with what you love! ([Vue](https://vuejs.org), [Angular](https://angular.io), [React](https://reactjs.org), ...)
 
 ## Getting Started
 To get the simple example project started do the following:
