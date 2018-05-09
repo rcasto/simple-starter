@@ -8,6 +8,9 @@ export default {
     name: 'Index',
     sourcemap: 'inline'
   },
+  watch: {
+    chokidar: true
+  },
   plugins: [
     babel({
       exclude: 'node_modules/**' // only transpile our source code
