@@ -1,8 +1,8 @@
 {
   "name": "simple-starter",
   "version": "1.0.0",
-  "description": "Simple starter setup for web projects",
-  "main": "index.js",
+  "description": "Simple starter project template for web projects",
+  "main": "server.js",
   "scripts": {
     "build": "npm-run-all clean --parallel build:*",
     "build:scripts": "rollup --config rollup/rollup.config.js",

@@ -1,3 +1,8 @@
+/*
+    This is the simple server we are starting out with in the project template
+    Edit it to your needs, right now it really just serves up the index.html file
+    from the dist/public directory
+*/
 const express = require('express');
 const path = require('path');
 
