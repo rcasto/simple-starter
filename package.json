@@ -44,6 +44,6 @@
     "rollup": "^0.58.2",
     "rollup-plugin-babel": "^3.0.4",
     "rollup-plugin-uglify": "^3.0.0",
-    "sass": "^1.4.0"
+    "sass": "^1.5.1"
   }
 }
