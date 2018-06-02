@@ -4,7 +4,7 @@ import uglify from 'rollup-plugin-uglify';
 export default {
   input: 'public/scripts/index.js',
   output: {
-    file: 'dist/public/scripts/index.js',
+    file: 'dist/public/index.js',
     format: 'iife',
     name: 'Index'
   },
