@@ -33,7 +33,6 @@
     "babel-preset-env": "^1.7.0",
     "chokidar-cli": "^1.2.0",
     "cpy-cli": "^1.0.1",
-    "html-inline": "^1.2.0",
     "html-minifier": "^3.5.16",
     "ncp": "^2.0.0",
     "npm-run-all": "^4.1.3",
